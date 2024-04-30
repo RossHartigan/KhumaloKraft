@@ -1,0 +1,1 @@
+This is a workj in Progress web application. It should however be fully connected to Azure and fully accesable as apposed to some of my other projects.
