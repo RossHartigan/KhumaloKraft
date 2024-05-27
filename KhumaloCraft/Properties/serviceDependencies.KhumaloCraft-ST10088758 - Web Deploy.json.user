@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-05-19T13:05:46.5542742Z"
+    }
+  },
+  "parameters": {
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "St10088758ResourceGroupRoss"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "2e62aea4-4e75-42de-bf48-ac35c9a0ecca"
+    }
+  }
+}

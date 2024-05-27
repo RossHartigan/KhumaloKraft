@@ -1,0 +1,111 @@
+﻿@page
+@model KhumaloCraft.Pages.ContactUsPageModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/Images/background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding-top: 40px;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 10rem;
+            color: orange;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px #000;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            color: black;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px white;
+            font-family: 'Garamond', serif;
+        }
+
+        .navbar-nav .nav-item a {
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+            .navbar-nav .nav-item a:hover {
+                color: darkblue;
+                background-color: darkgrey;
+            }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+        }
+
+        .navbar-brand {
+            padding: 10px 15px;
+        }
+
+        .navbar-toggler {
+            display: none;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            .contact-info p {
+                font-size: 3rem;
+                margin-bottom: 20px;
+                font-family: 'Garamond'
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/HomePage">HOME PAGE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br />
+    <br />
+    <br />
+
+    <h1>CONTACT US</h1>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> contact@khumalocraft.co.za</p>
+        <p><strong>Phone:</strong> +27 (123) 456-7890</p>
+        <p><strong>Address:</strong> 1234 Streetname Road Johannesburg</p>
+    </div>
+</body>
+</html>
+

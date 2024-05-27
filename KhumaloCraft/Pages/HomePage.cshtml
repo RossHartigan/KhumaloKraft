@@ -1,0 +1,186 @@
+﻿@page
+@model KhumaloCraft.Pages.HomePageModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/Images/spread.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 10rem;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px #000;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            color: black;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px white;
+            font-family: 'Garamond', serif;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 25px;
+        }
+
+        .clickable-image {
+            text-align: left;
+        }
+
+        .btn-container {
+            text-decoration: none;
+            display: block;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .btn-content {
+            border: none;
+            box-shadow: none;
+            text-align: center;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .btn-image {
+            max-width: 125%;
+        }
+
+        .btn-container:hover .btn-content {
+            transform: scale(1.3);
+        }
+
+        .navbar-nav .nav-item a {
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+            .navbar-nav .nav-item a:hover {
+                color: darkblue;
+                background-color: darkgrey;
+            }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+        }
+
+        .navbar-brand {
+            padding: 10px 15px;
+        }
+
+        .navbar-toggler {
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">LOG OUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <a asp-page="OrdersPage" class="btn-container">
+                    <div class="btn-content">
+                        <img src="Images/orders.jpg" alt="My Orders" class="btn-image">
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a asp-page="MyWorkPage" class="btn-container">
+                    <div class="btn-content">
+                        <img src="Images/work.jpg" alt="My Work" class="btn-image">
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a asp-page="AboutUsPage" class="btn-container">
+                    <div class="btn-content">
+                        <img src="Images/about.jpg" alt="About" class="btn-image">
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a asp-page="ContactUsPage" class="btn-container">
+                    <div class="btn-content">
+                        <img src="Images/contact.jpg" alt="Employee" class="btn-image">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
